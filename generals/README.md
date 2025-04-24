@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Board {
         - grid
@@ -32,3 +33,4 @@ classDiagram
     Environment --> Board : manages
     Environment --> Player : controls
     Environment --> CombatResolver : uses
+```
